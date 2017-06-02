@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ColourShifter</string>
+
+    <string name="greenButton">G+</string>
+    <string name="redButton">R+</string>
+    <string name="blueButton">B+</string>
+
+    <string name="greenText">G=</string>
+    <string name="redText">R=</string>
+    <string name="blueText">B=</string>
+
+    <string name="resetText">Reset</string>
+</resources>

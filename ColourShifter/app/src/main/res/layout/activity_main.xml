@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sashank.colourshifter.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="16dp"
+        android:text="@string/resetText"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gButton"
+        android:text="@string/greenButton"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gText"
+        android:layout_above="@id/gButton"
+        android:gravity="center"
+        android:layout_alignStart="@id/gButton"
+        android:layout_alignEnd="@id/gButton"
+        android:background="@color/textBox"
+        android:textColor="@color/textColor"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rButton"
+        android:text="@string/redButton"
+        android:layout_toStartOf="@id/gButton"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rText"
+        android:gravity="center"
+        android:layout_above="@id/rButton"
+        android:layout_alignStart="@id/rButton"
+        android:layout_alignEnd="@id/rButton"
+        android:background="@color/textBox"
+        android:textColor="@color/textColor"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bButton"
+        android:text="@string/blueButton"
+        android:layout_toEndOf="@id/gButton"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bText"
+        android:layout_above="@id/bButton"
+        android:gravity="center"
+        android:layout_alignStart="@id/bButton"
+        android:layout_alignEnd="@id/bButton"
+        android:background="@color/textBox"
+        android:textColor="@color/textColor"/>
+
+</RelativeLayout>
